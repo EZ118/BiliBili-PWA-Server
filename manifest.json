@@ -1,0 +1,19 @@
+{
+  "name": "Photoshop",
+  "short_name": "Ps",
+  "descriptions": "Photoshop PWA",
+  "start_url": "./",
+  "background_color": "#404550",
+  "display": "minimal-ui",
+  "scope": "./",
+  "theme_color": "#404550",
+  "icons": [
+    {
+      "src": "./images/icon.png",
+      "type": "image/png",
+      "sizes": "200x200",
+      "purpose": "any"
+    }
+  ],
+  "display_override": ["window-controls-overlay"]
+}
