@@ -4,6 +4,8 @@
   "description": "bilibili pwa for web",
   "main": "index.js",
   "scripts": {
+	"build": "node build/build.js",
+	"start": "npm run dev",
     "test": "node index.js"
   },
   "keywords": [
