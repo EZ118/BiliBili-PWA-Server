@@ -1,10 +1,10 @@
 {
-  "name": "ajax-request",
+  "name": "BILIBILI-PWA",
   "version": "1.2.2",
   "description": "bilibili pwa for web",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "build": "node index.js",
   },
   "keywords": [
     "request",
@@ -32,6 +32,5 @@
   },
   "dependencies": {
     "file-system": "^2.1.1",
-    "utils-extend": "^1.0.7"
   }
 }
