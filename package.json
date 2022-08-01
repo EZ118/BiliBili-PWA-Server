@@ -4,12 +4,14 @@
   "description": "bilibili pwa for web",
   "main": "index.js",
   "scripts": {
-	"build": "node index.js",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "http"
   ],
   "author": "eason <eason1018@outlook.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/node": "^2.5.2"
+  }
 }
