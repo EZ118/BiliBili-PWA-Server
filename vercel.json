@@ -5,5 +5,13 @@
       "src": "index.js",
       "use": "@vercel/node"
     }
-  ]
+  ],
+  "functions": {
+    "api/**": {
+      "runtime": "vercel-php@0.3.1",
+      "excludeFiles": "{test/**}",
+      "memory": 256,
+      "maxDuration": 5
+    }
+  }
 }
