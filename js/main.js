@@ -19,7 +19,7 @@ function Add2Page(result){
 	for(var i = 0; i <= 5; i++){
 		 WebList += `<div class='dynamic_singlebox'>
 					 <a onclick='window.open("https://player.bilibili.com/player.html?bvid=` + tjlist.data.item[i].bvid + `&page=1&danmaku=0", "Player", "height=500,width=800,top=50,left=250")' target='_blank'>
-						 <img src='` + tjlist.data.item[i].pic.replace("http:", "https:") + `@412w_232h_1c.webp'><br>
+						 <img src='https://getweb.vercel.app/api/GetImg/?url=` + encodeURI(tjlist.data.item[i].pic) + `@412w_232h_1c.webp'><br>
 						 <div class="dynamic_singlebox_vt">` + tjlist.data.item[i].title + `</div>
 					 </a>
 					 <a onclick='window.open("https://space.bilibili.com/` + tjlist.data.item[i].owner.mid + `", "Player", "height=500,width=800,top=50,left=250")' target='_blank'><div class="dynamic_singlebox_un">🔘&nbsp;` + tjlist.data.item[i].owner.name + `</div></a>
